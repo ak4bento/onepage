@@ -31,7 +31,7 @@
     $databasePassword = 'G4kk3n#AWS';
 
     $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
-
+    echo $mysqli;
     ?>
     <body>
         <div class="wrapper">
