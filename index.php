@@ -92,7 +92,7 @@
                             </div>
                         </div>
                         <div class="col-md-4" style="padding-right: 10px;padding-bottom: 10px;">
-                            <a href="http://akil.co.id" target="_blank">
+                            <a href="http://eepurl.com/hkvZZ9" target="_blank">
                                 <button type="submit" class="btn btn-block btn-primary btn-lg"><strong>Gabung</strong> Teman Sejawat</button>
                             </a>
                         </div>
@@ -105,12 +105,12 @@
             <div class="hero" style="background: #cfe3eb">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-lg-3">
                             <div class="d-flex justify-content-center">
                                 <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="120px">
                             </div>
                         </div>
-                        <div class="col-md-4" style="color: #4a7fc5">
+                        <div class="col-lg-6" style="color: #4a7fc5">
                             <div class="d-flex justify-content-center">
                                 <h4>sejawat indonesia adalah platform</h4>
                             </div>
@@ -124,7 +124,7 @@
                                 <h4>dengan nama Gakken Indonesia</h4>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-3">
                             <div class="d-flex justify-content-center">
                                 <img src="img/Logo%20Gakken-01-svg.svg" height="120px">
                             </div>
