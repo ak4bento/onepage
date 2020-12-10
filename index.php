@@ -57,19 +57,13 @@
             <div class="faqs" style="padding-top: 20px">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <h2 class="section-title" style="font-size: 60px">Hadir untuk  Dokter Indonesia <strong>Januari 2021</strong></h2>
+                        <div class="col-md-8">
+                            <h2 style="font-size: 60px; font-family: sans-serif">Hadir untuk  Dokter Indonesia <strong>Januari 2021</strong></h2>
                         </div>
-                        <div class="col-md-6" style="padding-right: 10%">
-                            <form action="index.php" method="post">
-                                <div class="form-group">
-                                    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Masukkan nama lengkap anda">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Masukkan email">
-                                </div>
-                                <button type="submit" class="btn btn-primary"><strong>Gabung</strong> Teman Sejawat</button>
-                            </form>
+                        <div class="col-md-4" style="padding-right: 10%">
+                            <a href="http://akil.co.id" target="_blank">
+                                <button type="submit" class="btn btn-primary btn-lg"><strong>Gabung</strong> Teman Sejawat</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -119,25 +113,6 @@
             </div>
             <!-- Call to Action End -->
         </div>
-
-        <?php
-        $databaseHost = 'gakken.ckq1o0csslqp.ap-southeast-1.rds.amazonaws.com';
-        $databaseName = 'welcome';
-        $databaseUsername = 'gakken';
-        $databasePassword = 'G4kk3n#AWS';
-
-        $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
-        // Check If form submitted, insert form data into users table.
-        if(isset($_POST['submit'])) {
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            // Insert user data into table
-            $result = mysqli_query($mysqli, "INSERT INTO users(name,email) VALUES('$name','$email')");
-
-            header("Location: index.php");
-        }
-        ?>
-
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
