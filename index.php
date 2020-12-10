@@ -20,15 +20,21 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <?php
+    /**
+     * using mysqli_connect for database connection
+     */
 
+    $databaseHost = 'gakken.ckq1o0csslqp.ap-southeast-1.rds.amazonaws.com';
+    $databaseName = 'welcome';
+    $databaseUsername = 'gakken';
+    $databasePassword = 'G4kk3n#AWS';
+
+    $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
+
+    ?>
     <body>
         <div class="wrapper">
-            <!-- Header Start -->
-            <div class="header">
-            </div>
-            <!-- Header End -->
-
-
             <!-- Hero Start -->
             <div class="hero" style="background: #00539C">
                 <div class="container-fluid">
@@ -68,12 +74,12 @@
                             <h2 class="section-title" style="font-size: 60px">Hadir untuk  Dokter Indonesia <strong>Januari 2021</strong></h2>
                         </div>
                         <div class="col-md-6" style="padding-right: 10%">
-                            <form>
+                            <form action="index.php">
                                 <div class="form-group">
                                     <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Masukkan nama lengkap anda">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan email">
+                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Masukkan email">
                                 </div>
                                 <button type="submit" class="btn btn-primary"><strong>Gabung</strong> Teman Sejawat</button>
                             </form>
@@ -126,6 +132,20 @@
             </div>
             <!-- Call to Action End -->
         </div>
+
+        <?php
+
+        // Check If form submitted, insert form data into users table.
+        if(isset($_POST['submit'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+
+            // Insert user data into table
+            $result = mysqli_query($mysqli, "INSERT INTO users(name,email) VALUES('$name','$email')");
+
+            header("Location: index.php");
+        }
+        ?>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
