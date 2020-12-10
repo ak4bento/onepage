@@ -20,19 +20,6 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
-    <?php
-    /**
-     * using mysqli_connect for database connection
-     */
-
-    $databaseHost = 'gakken.ckq1o0csslqp.ap-southeast-1.rds.amazonaws.com';
-    $databaseName = 'welcome';
-    $databaseUsername = 'gakken';
-    $databasePassword = 'G4kk3n#AWS';
-
-    $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
-    echo $mysqli;
-    ?>
     <body>
         <div class="wrapper">
             <!-- Hero Start -->
@@ -139,7 +126,7 @@
         if(isset($_POST['submit'])) {
             $name = $_POST['name'];
             $email = $_POST['email'];
-
+            include_once("config.php");
             // Insert user data into table
             $result = mysqli_query($mysqli, "INSERT INTO users(name,email) VALUES('$name','$email')");
 
