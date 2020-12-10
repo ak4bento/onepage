@@ -24,8 +24,14 @@
                 .font-middle {
                     font-size: 15px;
                 }
+                .font-size-month {
+                    font-size: 35px;
+                }
+                .font-size-info {
+                    font-size: 15px;
+                }
             }
-            @media only screen and (max-width: 600px) {
+            @media only screen and (min-width: 600px) {
                 .font-size-month {
                     font-size: 45px;
                 }
@@ -87,7 +93,7 @@
                         <div class="col-md-8">
                             <div class="col-md-12" style="color: #00539C">
                                 <div class="d-flex justify-content-center">
-                                    <h1 class="font-size-info">Hadir untuk Dokter Indonesia.</h1>
+                                    <span class="font-size-info">Hadir untuk Dokter Indonesia.</span>
                                 </div>
                             </div>
                             <div class="col-md-12" style="color: #00539C">
