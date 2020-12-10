@@ -121,12 +121,16 @@
         </div>
 
         <?php
+        $databaseHost = 'gakken.ckq1o0csslqp.ap-southeast-1.rds.amazonaws.com';
+        $databaseName = 'welcome';
+        $databaseUsername = 'gakken';
+        $databasePassword = 'G4kk3n#AWS';
 
+        $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName);
         // Check If form submitted, insert form data into users table.
         if(isset($_POST['submit'])) {
             $name = $_POST['name'];
             $email = $_POST['email'];
-            include_once("config.php");
             // Insert user data into table
             $result = mysqli_query($mysqli, "INSERT INTO users(name,email) VALUES('$name','$email')");
 
