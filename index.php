@@ -61,7 +61,7 @@
                             <h2 class="section-title" style="font-size: 60px">Hadir untuk  Dokter Indonesia <strong>Januari 2021</strong></h2>
                         </div>
                         <div class="col-md-6" style="padding-right: 10%">
-                            <form action="index.php">
+                            <form action="index.php" method="post">
                                 <div class="form-group">
                                     <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Masukkan nama lengkap anda">
                                 </div>
