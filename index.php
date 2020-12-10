@@ -8,8 +8,8 @@
         <meta content="Bootstrap Agency Template" name="description">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -20,17 +20,22 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
         <style>
+            @media only screen and (max-width: 320px) {
+                .font-middle {
+                    font-size: 15px;
+                }
+            }
             @media only screen and (max-width: 600px) {
                 .font-size-month {
-                    font-size: 35px;
+                    font-size: 45px;
                 }
                 .font-size-info {
-                    font-size: 25px;
+                    font-size: 20px;
                 }
             }
             @media only screen and  (min-width: 1024px) {
                 .font-size-month {
-                    font-size: 60px;
+                    font-size: 90px;
                 }
                 .font-size-info {
                     font-size: 40px;
@@ -87,7 +92,7 @@
                             </div>
                             <div class="col-md-12" style="color: #00539C">
                                 <div class="d-flex justify-content-center">
-                                    <h2 class="font-size-month font-weight-bold" style="font-family: 'Raleway', sans-serif"><strong>Januari 2021</strong></h2>
+                                    <h2 class="font-size-month font-weight-bold" style="font-family: 'Lato', sans-serif"><strong>Januari 2021</strong></h2>
                                 </div>
                             </div>
                         </div>
@@ -107,21 +112,21 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3">
                             <div class="d-flex justify-content-center">
-                                <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="120px">
+                                <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="120px" style="margin-bottom: 30px;">
                             </div>
                         </div>
                         <div class="col-lg-6" style="color: #4a7fc5">
                             <div class="d-flex justify-content-center">
-                                <h4>sejawat indonesia adalah platform</h4>
+                                <h5 class="font-middle">sejawat indonesia adalah platform</h5>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <h4>edukasi khusus untuk dokter.</h4>
+                                <h5 class="font-middle">edukasi khusus untuk dokter.</h5>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <h4>sebelumnya dikenal</h4>
+                                <h5 class="font-middle">sebelumnya dikenal</h5>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <h4>dengan nama Gakken Indonesia</h4>
+                                <h5 class="font-middle">dengan nama Gakken Indonesia</h5>
                             </div>
                         </div>
                         <div class="col-lg-3">
@@ -149,7 +154,7 @@
             <div class="hero" style="background: linear-gradient(to right, #00539C, #4F84C4 50%);">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-9" style="color: white; font-family: sans-serif">
+                        <div class="col-md-9" style="color: white; font-family: 'Lato', sans-serif;">
                             <h2>Selalu terhubung dengan teman sejawat</h2>
                         </div>
                         <div class="col-md-3">

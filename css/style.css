@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 /*******************************/
 /********* General CSS *********/
 /*******************************/
 body {
     color: #213546;
     background: #eeeeee;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -836,7 +837,7 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"]:after {
-    font-family: 'font Awesome 5 Free';
+    font-family: 'Lato', sans-serif;
     content: "\f067";
     float: right;
     color: #00539C;
@@ -846,7 +847,7 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
-    font-family: 'font Awesome 5 Free';
+    font-family: 'Lato', sans-serif;
     content: "\f068";
     float: right;
     color: #00539C;
@@ -1847,7 +1848,7 @@ a:focus {
 .footer .footer-link a::before {
     position: relative;
     content: "\f0da";
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Lato', sans-serif;
     font-weight: 900;
     margin-right: 10px;
 }
