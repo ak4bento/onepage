@@ -23,29 +23,31 @@
     <body>
         <div class="wrapper">
             <!-- Hero Start -->
-            <div class="hero" style="background: #00539C">
+            <div class="hero" style="background: #00539C;padding-bottom: 0px;">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-12">
-                            <img src="img/Logo%20Sejawat%20White.svg" alt="Image" width="20%">
+                        <div class="col-md-7">
+                            <img src="img/Logo%20Sejawat%20White.svg" alt="Image" width="150px">
                         </div>
-                        <div class="col-md-8">
-                            <h1>
-                            <a href=""
-                               class="typewrite"
-                               data-period="2000"
-                               data-type='[
-                                "Premium Licence Scientific Journals  on your fingertips.",
-                                "Daily dose of  medical science  articles.",
-                                "Webinar and Podcast with Experts.",
-                                "On-Demand  CME contents for your  convenience.",
-                                "The go-to  digital resources for Indonesian doctors."]'>
-                                <span class="wrap"></span>
-                            </a>
-                            </h1>
+                        <div class="col-md-6">
+                            <div class="col-md-12">
+                                <h1>
+                                <a href=""
+                                   class="typewrite"
+                                   data-period="2000"
+                                   data-type='[
+                                    "Premium Licence Scientific Journals  on your fingertips.",
+                                    "Daily dose of  medical science  articles.",
+                                    "Webinar and Podcast with Experts.",
+                                    "On-Demand  CME contents for your  convenience.",
+                                    "The go-to  digital resources for Indonesian doctors."]'>
+                                    <span class="wrap"></span>
+                                </a>
+                                </h1>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <img src="img/group.png" alt="Image">
+                        <div class="col-md-6">
+                            <img src="img/sejawat-header.svg" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -54,15 +56,15 @@
 
 
             <!-- About Start -->
-            <div class="faqs" style="padding-top: 20px">
+            <div class="hero" style="padding-top: 20px">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-8">
-                            <h2 style="font-size: 60px; font-family: sans-serif">Hadir untuk  Dokter Indonesia <strong>Januari 2021</strong></h2>
+                            <h2 style="font-size: 60px; font-family: sans-serif">Hadir untuk  Dokter Indonesia <b>Januari 2021</b></h2>
                         </div>
-                        <div class="col-md-4" style="padding-right: 10%">
+                        <div class="col-md-4" style="padding-right: 10px;padding-bottom: 10px;">
                             <a href="http://akil.co.id" target="_blank">
-                                <button type="submit" class="btn btn-primary btn-lg"><strong>Gabung</strong> Teman Sejawat</button>
+                                <button type="submit" class="btn btn-block btn-primary btn-lg"><strong>Gabung</strong> Teman Sejawat</button>
                             </a>
                         </div>
                     </div>
@@ -71,17 +73,17 @@
             <!-- About End -->
 
             <!-- FAQs Start -->
-            <div class="faqs" style="background: #cfe3eb">
+            <div class="hero" style="background: #cfe3eb">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-4">
-                            <img src="img/Logo%20Sejawat%20Blue.svg" alt="Image">
+                            <img src="img/Logo%20Sejawat%20Blue-svg.svg" alt="Image">
                         </div>
                         <div class="col-md-4" style="position: center; color: #4a7fc5">
                             <h2><p>adalah platform edukasi  khusus untuk dokter, sebelumnya dikenal dengan</p></h2>
                         </div>
                         <div class="col-md-4">
-                            <img src="img/Logo%20Gakken-01.svg" alt="Image">
+                            <img src="img/Logo%20Gakken-01-svg.svg" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -100,13 +102,17 @@
             <!-- FAQs End -->
 
             <!-- Call to Action Start -->
-            <div class="call-to-action">
-                <div class="container">
+            <div class="hero" style="background: linear-gradient(to right, #00539C, #4F84C4 50%);">
+                <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-9">
+                        <div class="col-md-9" style="color: white; font-family: sans-serif">
                             <h2>Selalu terhubung dengan teman sejawat</h2>
                         </div>
                         <div class="col-md-3">
+                            <img src="img/Sosmed%20(2).png" alt="Image">
+                            <img src="img/Sosmed%20(3).png" alt="Image">
+                            <img src="img/Sosmed%20(4).png" alt="Image">
+                            <img src="img/Sosmed%20(5).png" alt="Image">
                         </div>
                     </div>
                 </div>
