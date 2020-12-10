@@ -19,6 +19,18 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            @media only screen and (max-width: 600px) {
+                .font-size {
+                    font-size: 35px;
+                }
+            }
+            @media only screen and  (min-width: 1024px) {
+                .font-size {
+                    font-size: 60px;
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="wrapper">
@@ -60,7 +72,7 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-8">
-                            <h2 style="font-size: 60px; font-family: sans-serif">Hadir untuk  Dokter Indonesia <b>Januari 2021</b></h2>
+                            <h2 class="font-size" style="font-family: sans-serif">Hadir untuk  Dokter Indonesia <b>Januari 2021</b></h2>
                         </div>
                         <div class="col-md-4" style="padding-right: 10px;padding-bottom: 10px;">
                             <a href="http://akil.co.id" target="_blank">
