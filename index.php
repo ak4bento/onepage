@@ -21,13 +21,19 @@
         <link href="css/style.css" rel="stylesheet">
         <style>
             @media only screen and (max-width: 600px) {
-                .font-size {
+                .font-size-month {
                     font-size: 35px;
+                }
+                .font-size-info {
+                    font-size: 25px;
                 }
             }
             @media only screen and  (min-width: 1024px) {
-                .font-size {
+                .font-size-month {
                     font-size: 60px;
+                }
+                .font-size-info {
+                    font-size: 40px;
                 }
             }
         </style>
@@ -38,8 +44,10 @@
             <div class="hero" style="background: #00539C;padding-bottom: 0px;">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-7">
-                            <img src="img/Logo%20Sejawat%20White.svg" alt="Image" width="150px">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-center">
+                                <img src="img/Logo%20Sejawat%20White.svg" alt="Image" width="200px">
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <div class="col-md-12">
@@ -72,7 +80,16 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-8">
-                            <h2 class="font-size" style="font-family: sans-serif">Hadir untuk  Dokter Indonesia <b>Januari 2021</b></h2>
+                            <div class="col-md-12" style="color: #00539C">
+                                <div class="d-flex justify-content-center">
+                                    <h1 class="font-size-info">Hadir untuk Dokter Indonesia.</h1>
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="color: #00539C">
+                                <div class="d-flex justify-content-center">
+                                    <h2 class="font-size-month font-weight-bold" style="font-family: 'Raleway', sans-serif"><strong>Januari 2021</strong></h2>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4" style="padding-right: 10px;padding-bottom: 10px;">
                             <a href="http://akil.co.id" target="_blank">
@@ -89,13 +106,28 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-4">
-                            <img src="img/Logo%20Sejawat%20Blue-svg.svg" alt="Image">
+                            <div class="d-flex justify-content-center">
+                                <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="120px">
+                            </div>
                         </div>
-                        <div class="col-md-4" style="position: center; color: #4a7fc5">
-                            <h2><p>adalah platform edukasi  khusus untuk dokter, sebelumnya dikenal dengan</p></h2>
+                        <div class="col-md-4" style="color: #4a7fc5">
+                            <div class="d-flex justify-content-center">
+                                <h4>sejawat indonesia adalah platform</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <h4>edukasi khusus untuk dokter.</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <h4>sebelumnya dikenal</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <h4>dengan nama Gakken Indonesia</h4>
+                            </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="img/Logo%20Gakken-01-svg.svg" alt="Image">
+                            <div class="d-flex justify-content-center">
+                                <img src="img/Logo%20Gakken-01-svg.svg" height="120px">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,10 +153,9 @@
                             <h2>Selalu terhubung dengan teman sejawat</h2>
                         </div>
                         <div class="col-md-3">
-                            <img src="img/Sosmed%20(2).png" alt="Image">
-                            <img src="img/Sosmed%20(3).png" alt="Image">
-                            <img src="img/Sosmed%20(4).png" alt="Image">
-                            <img src="img/Sosmed%20(5).png" alt="Image">
+                            <img src="img/facebook.png" width="52px">
+                            <img src="img/linkedin.png" width="52px">
+                            <img src="img/instagram.png" width="52px">
                         </div>
                     </div>
                 </div>
