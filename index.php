@@ -31,7 +31,7 @@
             {
                 "@context": "http://schema.org",
                 "@type": "Hadir untuk indonesia",
-                "url": "https://www.tribunnews.com/",
+                "url": "https://www.sejawat.co.id/",
                 "datePublished": "2020-11-17T12:02:41Z",
                 "headline": "sejawat indonesia adalah platform edukasi khusus untuk dokter",
                 "image": [
@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-md-4" style="padding-right: 10px;padding-bottom: 10px;">
                             <a href="http://eepurl.com/hkvZZ9" target="_blank">
-                                <button type="submit" class="btn btn-block btn-primary btn-lg"><strong>Gabung</strong> Teman Sejawat</button>
+                                <button type="submit" class="btn btn-block btn-lg" style="background: #00539C; color: white; border-radius: 25px"><strong>Gabung</strong> Teman Sejawat</button>
                             </a>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                                 <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="80px" style="margin-bottom: 30px;">
                             </div>
                         </div>
-                        <div class="col-lg-6" style="color: #4a7fc5">
+                        <div class="col-lg-6" style="color: #00539C">
                             <div class="d-flex justify-content-center">
                                 <h5 class="font-middle">sejawat indonesia adalah platform</h5>
                             </div>
@@ -183,7 +183,7 @@
             <!-- FAQs End -->
 
             <!-- Call to Action Start -->
-            <div class="hero" style="background: linear-gradient(to right, #00539C, #4F84C4 50%);">
+            <div class="hero" style="background: #00539C">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-8" style="color: white; font-family: 'Lato', sans-serif;">
