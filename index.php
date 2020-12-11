@@ -118,7 +118,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3">
                             <div class="d-flex justify-content-center">
-                                <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="120px" style="margin-bottom: 30px;">
+                                <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="80px" style="margin-bottom: 30px;">
                             </div>
                         </div>
                         <div class="col-lg-6" style="color: #4a7fc5">
@@ -137,7 +137,7 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="d-flex justify-content-center">
-                                <img src="img/Logo%20Gakken-01-svg.svg" height="120px">
+                                <img src="img/Logo%20Gakken-01-svg.svg" height="80px">
                             </div>
                         </div>
                     </div>
@@ -160,13 +160,17 @@
             <div class="hero" style="background: linear-gradient(to right, #00539C, #4F84C4 50%);">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-9" style="color: white; font-family: 'Lato', sans-serif;">
-                            <h2>Selalu terhubung dengan teman sejawat</h2>
+                        <div class="col-md-8" style="color: white; font-family: 'Lato', sans-serif;">
+                            <div class="d-flex justify-content-center">
+                                <h6>Ikuti kami</h6>
+                            </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="img/facebook.png" width="52px">
-                            <img src="img/linkedin.png" width="52px">
-                            <img src="img/instagram.png" width="52px">
+                        <div class="col-md-4">
+                            <div class="d-flex justify-content-center">
+                                <img src="img/facebook.png" width="52px" style="padding: 5px">
+                                <img src="img/linkedin.png" width="52px" style="padding: 5px">
+                                <img src="img/instagram.png" width="52px" style="padding: 5px">
+                            </div>
                         </div>
                     </div>
                 </div>
