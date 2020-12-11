@@ -93,11 +93,11 @@
                                    class="typewrite"
                                    data-period="2000"
                                    data-type='[
-                                    "Premium Licence Scientific Journals  on your fingertips.",
-                                    "Daily dose of  medical science  articles.",
+                                    "Premium License Scientific Journals on your fingertips.",
+                                    "Daily dose of medical science articles.",
                                     "Webinar and Podcast with Experts.",
-                                    "On-Demand  CME contents for your  convenience.",
-                                    "The go-to  digital resources for Indonesian doctors."]'>
+                                    "On-Demand CME contents for your convenience.",
+                                    "The go-to digital resources for Indonesian doctors."]'>
                                     <span class="wrap"></span>
                                 </a>
                                 </h1>
@@ -193,9 +193,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="d-flex justify-content-center">
-                                <img src="img/facebook.png" width="52px" style="padding: 5px">
-                                <img src="img/linkedin.png" width="52px" style="padding: 5px">
-                                <img src="img/instagram.png" width="52px" style="padding: 5px">
+                                <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px">
+                                <img src="img/linkedin.png" width="52px" height="52px" style="padding: 5px">
+                                <img src="img/instagram.png" width="52px" height="52px" style="padding: 5px">
                             </div>
                         </div>
                     </div>
