@@ -10,6 +10,7 @@
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
 
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +18,31 @@
         <link href="lib/slick/slick.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+        <meta name="robots" content="index,follow"/>
+        <meta name="googlebot-news" content="index,follow"/>
+        <meta name="googlebot" content="index,follow"/>
+
+        <meta name="description" content="sejawat indonesia adalah platform edukasi khusus untuk dokter. sebelumnya dikenal dengan nama Gakken Indonesia" />
+        <meta name="news_keywords" content="sejawat, teman sejawat, dokter, jurnal elsevier, kedokteran, artikel, obat, rumah sakit, kesehatan, penyakit, tips kesehatan" />
+
+        <link rel="canonical" href="https://sejawat.co.id/">
+        <meta name="viewport" content="width=device-width">
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Hadir untuk indonesia",
+                "url": "https://www.tribunnews.com/",
+                "datePublished": "2020-11-17T12:02:41Z",
+                "headline": "sejawat indonesia adalah platform edukasi khusus untuk dokter",
+                "image": [
+                    "img/Logo%20Sejawat%20White.svg"
+                ],
+                "potentialAction": {
+                    "@type": "indexDrugs",
+                    "target": "https://www.sejawat.co.id/drugs"
+                }
+            }
+        </script>
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
         <style>
