@@ -270,5 +270,14 @@
                 document.body.appendChild(css);
             };
         </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GW3B4EELKY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-GW3B4EELKY');
+        </script>
     </body>
 </html>
