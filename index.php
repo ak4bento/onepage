@@ -186,12 +186,17 @@
             <div class="hero" style="background: #00539C">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-8" style="color: white; font-family: 'Lato', sans-serif;">
+                        <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;">
                             <div class="d-flex justify-content-center">
-                                <h6>Ikuti kami</h6>
+                                <h4>Copyright @ 2020</h4>
                             </div>
                         </div>
                         <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;">
+                            <div class="d-flex justify-content-center">
+                                <h6>Ikuti kami</h6>
+                            </div>
                             <div class="d-flex justify-content-center">
                                 <a href="https://www.facebook.com/sejawat.idn" target="_blank">
                                     <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px">
