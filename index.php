@@ -186,18 +186,16 @@
             <div class="hero" style="background: #00539C">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-5" style="color: #CFE3EB; font-family: 'Lato', sans-serif;">
-                            <div class="d-flex justify-content-center">
-                                <span style="font-size: 9px">Copyright ©️ 2020 PT. SIPS Edutech Indonesia. All Rights Reserved.</span>
+                        <div class="col-md-6" style="color: #CFE3EB; font-family: 'Lato', sans-serif;">
+                            <div style="text-align: center;">
+                                <span style="font-size: 15px">Copyright ©️ 2020 PT. SIPS Edutech Indonesia. All Rights Reserved.</span>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                        </div>
-                        <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;margin-top: 10px;">
+                        <div class="col-md-6" style="color: white; font-family: 'Lato', sans-serif;margin-top: 10px;">
                             <div class="d-flex justify-content-center">
-                                <h6>Ikuti kami</h6>
-                            </div>
-                            <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center" style="padding: 15px">
+                                    <h6>Ikuti kami</h6>
+                                </div>
                                 <a href="https://www.facebook.com/sejawat.idn" target="_blank">
                                     <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px;margin-top: 0px;">
                                 </a>
