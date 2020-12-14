@@ -188,24 +188,24 @@
                     <div class="row align-items-center">
                         <div class="col-md-5" style="color: #CFE3EB; font-family: 'Lato', sans-serif;">
                             <div class="d-flex justify-content-center">
-                                <h6>Copyright ©️ 2020 PT. SIPS Edutech Indonesia. All Rights Reserved.</h6>
+                                <span style="font-size: 9px">Copyright ©️ 2020 PT. SIPS Edutech Indonesia. All Rights Reserved.</span>
                             </div>
                         </div>
                         <div class="col-md-3">
                         </div>
-                        <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;">
+                        <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;margin-top: 10px;">
                             <div class="d-flex justify-content-center">
                                 <h6>Ikuti kami</h6>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <a href="https://www.facebook.com/sejawat.idn" target="_blank">
-                                    <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px">
+                                    <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px;margin-top: 0px;">
                                 </a>
                                 <a href="https://twitter.com/sejawat_id" target="_blank">
-                                    <img src="img/twitter.png" width="52px" height="52px" style="padding: 5px">
+                                    <img src="img/twitter.png" width="52px" height="52px" style="padding: 5px;margin-top: 0px;">
                                 </a>
                                 <a href="https://www.instagram.com/sejawat_id/" target="_blank">
-                                    <img src="img/instagram.png" width="52px" height="52px" style="padding: 5px">
+                                    <img src="img/instagram.png" width="52px" height="52px" style="padding: 5px;margin-top: 0px;">
                                 </a>
                             </div>
                         </div>
