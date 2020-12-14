@@ -193,13 +193,13 @@
                         </div>
                         <div class="col-md-4">
                             <div class="d-flex justify-content-center">
-                                <a href="https://www.facebook.com/sejawat.idn">
+                                <a href="https://www.facebook.com/sejawat.idn" target="_blank">
                                     <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px">
                                 </a>
-                                <a href="https://twitter.com/sejawat_id">
+                                <a href="https://twitter.com/sejawat_id" target="_blank">
                                     <img src="img/twitter.png" width="52px" height="52px" style="padding: 5px">
                                 </a>
-                                <a href="https://www.instagram.com/sejawat_id/">
+                                <a href="https://www.instagram.com/sejawat_id/" target="_blank">
                                     <img src="img/instagram.png" width="52px" height="52px" style="padding: 5px">
                                 </a>
                             </div>
