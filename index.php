@@ -186,12 +186,12 @@
             <div class="hero" style="background: #00539C">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;">
+                        <div class="col-md-5" style="color: #CFE3EB; font-family: 'Lato', sans-serif;">
                             <div class="d-flex justify-content-center">
-                                <h4>Copyright @ 2020</h4>
+                                <h6>Copyright ©️ 2020 PT. SIPS Edutech Indonesia. All Rights Reserved.</h6>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                         </div>
                         <div class="col-md-4" style="color: white; font-family: 'Lato', sans-serif;">
                             <div class="d-flex justify-content-center">
