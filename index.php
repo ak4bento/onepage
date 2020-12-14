@@ -147,18 +147,11 @@
                                 <img src="img/Logo%20Sejawat%20Blue-svg.svg" height="80px" style="margin-bottom: 30px;">
                             </div>
                         </div>
-                        <div class="col-lg-6" style="color: #00539C">
+                        <div class="col-lg-6" style="color: #00539C; text-align: center;">
                             <div class="d-flex justify-content-center">
-                                <h5 class="font-middle">sejawat indonesia adalah platform</h5>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <h5 class="font-middle">edukasi khusus untuk dokter.</h5>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <h5 class="font-middle">sebelumnya dikenal</h5>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <h5 class="font-middle">dengan nama Gakken Indonesia</h5>
+                                <h5 class="font-middle">
+                                    Sejawat Indonesia adalah platform edukasi khusus untuk dokter, sebelumnya dikenal dengan nama Gakken Indonesia
+                                </h5>
                             </div>
                         </div>
                         <div class="col-lg-3">
