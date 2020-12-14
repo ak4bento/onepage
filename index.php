@@ -193,9 +193,15 @@
                         </div>
                         <div class="col-md-4">
                             <div class="d-flex justify-content-center">
-                                <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px">
-                                <img src="img/linkedin.png" width="52px" height="52px" style="padding: 5px">
-                                <img src="img/instagram.png" width="52px" height="52px" style="padding: 5px">
+                                <a href="https://www.facebook.com/sejawat.idn">
+                                    <img src="img/facebook.png" width="52px" height="52px" style="padding: 5px">
+                                </a>
+                                <a href="https://twitter.com/sejawat_id">
+                                    <img src="img/twitter.png" width="52px" height="52px" style="padding: 5px">
+                                </a>
+                                <a href="https://www.instagram.com/sejawat_id/">
+                                    <img src="img/instagram.png" width="52px" height="52px" style="padding: 5px">
+                                </a>
                             </div>
                         </div>
                     </div>
