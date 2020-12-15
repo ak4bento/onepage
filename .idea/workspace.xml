@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40a071c2-c3aa-47f0-b4a0-98ec78d46859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ROPsulsel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../accounts.sejawat" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +47,8 @@
       <workItem from="1607415845437" duration="7132000" />
       <workItem from="1607560047561" duration="22286000" />
       <workItem from="1607649108182" duration="7627000" />
-      <workItem from="1607906529448" duration="5445000" />
+      <workItem from="1607906529448" duration="8579000" />
+      <workItem from="1607991723335" duration="1958000" />
     </task>
     <servers />
   </component>

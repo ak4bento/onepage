@@ -93,11 +93,11 @@
                                    class="typewrite"
                                    data-period="2000"
                                    data-type='[
-                                    "Premium License Scientific Journals on your fingertips.",
-                                    "Daily dose of medical science articles.",
-                                    "Webinar and Podcast with Experts.",
-                                    "On-Demand CME contents for your convenience.",
-                                    "The go-to digital resources for Indonesian doctors."]'>
+                                    "Jurnal ilmiah premium. Gratis!",
+                                    "Artikel kedokteran terkurasi. Update setiap hari.",
+                                    "Webinar dan podcast bersama para ahli.",
+                                    "Konten CME dengan SKP IDI. Akses kapan saja.",
+                                    "Teman Dokter Indonesia."]'>
                                     <span class="wrap"></span>
                                 </a>
                                 </h1>
